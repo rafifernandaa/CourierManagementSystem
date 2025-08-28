@@ -60,6 +60,20 @@ To set up Kurir.in locally, follow these steps:
    - Build and run the solution (F5 or Start in Visual Studio).
    - The application will start with the `LoadingScreenForm` and transition to the `LoginForm`.
 
+## Suggested Workflows
+Based on the tech stack (.NET Framework, VB.NET, Windows Forms), we recommend the following GitHub Actions workflow for automating build, test, and deployment processes.
+### .NET Desktop
+- Purpose: Build, test, sign, and publish a desktop application built on .NET Framework.
+- Workflow: A GitHub Actions workflow is available in `.github/workflows/dotnet-desktop.yml.` It automates:
+  - Building the VB.NET solution using `msbuild`.
+  - Restoring NuGet packages (`MySql.Data`, `BouncyCastle`).
+  - (Optional) Running tests if a test project is added (e.g., using MSTest or NUnit).
+  - (Optional) Signing executables with a code-signing certificate, leveraging Bouncy Castle’s cryptographic capabilities.
+  - Publishing release artifacts (e.g., `.exe` files).
+- Setup: Ensure the workflow file is in your repository. Check the Actions tab on GitHub to monitor builds.
+
+To customize the workflow (e.g., add tests or signing), refer to the `.github/workflows/dotnet-desktop.yml` file in the repository.
+
 ## Usage
 
 1. Admin Access:
