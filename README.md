@@ -1,6 +1,6 @@
 # Kurir.in - Courier Management Application
 
-![Kurir.in Logo](images/logo.jpeg) <!-- Replace with actual logo path if available -->
+![Kurir.in Logo](logo.jpeg) <!-- Replace with actual logo path if available -->
 
 ## Overview
 
