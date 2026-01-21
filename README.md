@@ -1,7 +1,5 @@
 # Kurir.in - Courier Management Application
 
-![Kurir.in Logo](logo.jpeg) <!-- Replace with actual logo path if available -->
-
 ## Overview
 
 Kurir.in is a comprehensive courier management application designed to streamline logistics and delivery operations in the era of booming online shopping. Built as a database project, it enables administrators to efficiently manage package deliveries, track shipments, and oversee couriers. Couriers (users) can access real-time information about assigned packages, ensuring smooth and reliable service. This application addresses the growing demand for fast, efficient, and trustworthy delivery solutions, enhancing the overall online shopping experience for marketplaces and end-users.
